@@ -2,12 +2,8 @@ module.exports = {
   name: 'Yao Jianyu',
   title: 'Master from ICT',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Residence': 'Beijing',
+    'Email': '<a href="mailto:yaojianyu89@gmail.com">yaojianyu89@gmail.com</a>'
   },
   skills: [
     ['Comedy', '++++'],
@@ -21,6 +17,9 @@ module.exports = {
     ['Writing', '++++'],
     ['Directing', '+++'],
     ['Literature', '++++'],
+    ['Influence', '++++'],
+    ['Influence', '++++'],
+    ['Influence', '++++'],
     ['Influence', '++++'],
   ],
   plays: [
