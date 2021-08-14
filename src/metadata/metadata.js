@@ -6,7 +6,7 @@ module.exports = {
   },
   plays: [
     {
-      title: 'Small GEMM in Arm platform',
+      title: 'IAAT: A Input-Aware Adaptive Tuning framework for Small GEMM',
       written: 'November 2020 - May 2021.   The paper is under review in ICPADS\'21',
       badges: ['C', 'Assembly', 'Makefile'],
       contents: `GEMM with the small size of input matrices is becoming widely used in many fields like HPC and machine learning. 
@@ -21,10 +21,12 @@ module.exports = {
       The experimental results show that IAAT gains better performance than other BLAS libraries on ARMv8 platform.`
     },
     {
-      title: 'Small GEMM for cross platform',
+      title: 'IAAT for different platforms',
       written: 'June 2021 - now',
       badges: ['C', 'Assembly'],
-      contents: `IAAT for different platforms`
+      contents: `Our previous work only focused on ARMv8 platform, and was not suitable for other platforms. 
+      Therefore, we reaserch the common method and implementation of small GEMM for different platforms.
+       Besides, we plan to utilize JIT(just-in-time) to optimize small GEMM`
     },
     {
       title: 'OpenVML: Vector Math Library',
