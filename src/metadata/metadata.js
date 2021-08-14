@@ -21,7 +21,7 @@ module.exports = {
       title: 'OpenVML: ',
       written: 'August 2020 - April 2021',
       badges: ['C', 'Assembly', 'SIMD'],
-      contents: `Vector Math Library`
+      contents: `Vector Math Library As a basic mathematical operation, the high-performance implementation of trigonometric functions is of great significance to the construction of the basic software ecology of the processor. Especially, the current processors have adopted the SIMD architecture, and the implementation of high-performance trigonometric functions based on SIMD has important research significance and application value. In this regard, the project uses numerical analysis method to implement and optimize the five commonly used trigonometric functions sin, cos, tan, atan, atan2 with high performance. Based on the analysis of floating-point IEEE754 standard, an efficient trigonometric function algorithm is designed. Then, the algorithm accuracy is further improved by the application of Taylor formula, Pade approximation and Remez algorithm in polynomial approximation algorithm. Finally, the performance of the algorithm is further improved by using instruction pipeline and SIMD optimization. The experimental results show that, on the premise of satisfying the accuracy, the trigonometric function implemented is compared with libm algorithm library and ARM_M algorithm library, on the ARM V8 computing platform, has achieved great performance improvement, which is 1.77-6.26 times higher than libm algorithm library, compared with ARM_M The library of M method is 1.34-1.5 times higher`
     },
   ],
   skills: [
