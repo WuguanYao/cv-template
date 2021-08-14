@@ -28,29 +28,53 @@
         </div>
     </div>
 
+    <p>
+        My name is Yaojianyu.    
+    </p>
+
     <h2>Education</h2>
     <p>Bachelors degree in Software Engineering. Shandong University [2015 - 2019]</p>
     <p>Masters degree. Institute of Computing Technology, Chinese Academy of Sciences [2019 - now]</p>
 
-    <p>
-        English poet, playwright and actor, widely regarded as the greatest writer in the English language
-        and the world's pre-eminent dramatist. Often called England's national poet and the "Bard of Avon".
-        My extant work is including collaborations, consist of approximately 38 plays, 154 sonnets,
-        two long narrative poems and a few other verses, some of uncertain authorship.
-    </p>
-
     <h2>Professional Experience</h2>
     <div class="card mb-4">
         <div class="card-body">
-            <h3>Hamlet</h3>
-            <p class="text-muted">Likely early 17th century</p>
+            <h3>Small GEMM</h3>
+            <p class="text-muted">November 2020 - May 2021</p>
 
-            <p>Prince Hamlet is visited by his father&#39;s ghost and ordered to avenge his father&#39;s murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.</p>
+            <p>GEMM with the small size of input matrices is becoming widely used in many fields like HPC and machine learning. Although many famous BLAS libraries already supported small GEMM, they cannot achieve near-optimal performance. This is because the costs of pack operations are high and frequent boundary processing cannot be neglected. This paper proposes an input-aware adaptive tuning framework(IAAT) for small GEMM to overcome the performance bottlenecks in state-of-the-art implementations. IAAT consists of two stages, the install-time stage and the run-time stage. In the run-time stage, IAAT tiles matrices into blocks to alleviate boundary processing. This stage utilizes an input-aware adaptive tile algorithm and plays the role of runtime tuning. In the install-time stage, IAAT auto-generates hundreds of kernels of different sizes to remove pack operations. Finally, IAAT finishes the computation of small GEMM by invoking different kernels, which corresponds to the size of blocks. The experimental results show that IAAT gains better performance than other BLAS libraries on ARMv8 platform.</p>
 
             <div>
-                <span class="badge badge-primary">tragedy</span>
-                <span class="badge badge-primary">philosophy</span>
-                <span class="badge badge-primary">death</span>
+                <span class="badge badge-primary">C</span>
+                <span class="badge badge-primary">Assembly</span>
+                <span class="badge badge-primary">Makefile</span>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-4">
+        <div class="card-body">
+            <h3>Small GEMM for cross platform</h3>
+            <p class="text-muted">June 2021 - now</p>
+
+            <p>GEMM with the small size of input matrices is becoming widely used in many fields like HPC and machine learning. Although many famous BLAS libraries already supported small GEMM, they cannot achieve near-optimal performance. This is because the costs of pack operations are high and frequent boundary processing cannot be neglected. This paper proposes an input-aware adaptive tuning framework(IAAT) for small GEMM to overcome the performance bottlenecks in state-of-the-art implementations. IAAT consists of two stages, the install-time stage and the run-time stage. In the run-time stage, IAAT tiles matrices into blocks to alleviate boundary processing. This stage utilizes an input-aware adaptive tile algorithm and plays the role of runtime tuning. In the install-time stage, IAAT auto-generates hundreds of kernels of different sizes to remove pack operations. Finally, IAAT finishes the computation of small GEMM by invoking different kernels, which corresponds to the size of blocks. The experimental results show that IAAT gains better performance than other BLAS libraries on ARMv8 platform.</p>
+
+            <div>
+                <span class="badge badge-primary">C</span>
+                <span class="badge badge-primary">Assembly</span>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-4">
+        <div class="card-body">
+            <h3>OpenVML: </h3>
+            <p class="text-muted">August 2020 - April 2021</p>
+
+            <p>Vector Math Library</p>
+
+            <div>
+                <span class="badge badge-primary">C</span>
+                <span class="badge badge-primary">Assembly</span>
+                <span class="badge badge-primary">SIMD</span>
             </div>
         </div>
     </div>
@@ -75,6 +99,12 @@
         </div>
         <div class="col-print-1 col-3 col-md-2 col-lg-1">
             +++
+        </div>
+        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+            <small>SIMD</small>
+        </div>
+        <div class="col-print-1 col-3 col-md-2 col-lg-1">
+            ++++
         </div>
         <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
             <small>CUDA</small>
