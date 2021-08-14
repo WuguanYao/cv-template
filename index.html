@@ -21,7 +21,7 @@
         <div class="col-md-6 col-print-6">
             <dl class="row">
                 <dt class="col-md-3">Residence</dt>
-                <dd class="col-md-9">Beijing</dd>
+                <dd class="col-md-9">Beijing, China</dd>
                 <dt class="col-md-3">Email</dt>
                 <dd class="col-md-9"><a href="mailto:yaojianyu89@gmail.com">yaojianyu89@gmail.com</a></dd>
             </dl>
@@ -39,7 +39,7 @@
     <h2>Professional Experience</h2>
     <div class="card mb-4">
         <div class="card-body">
-            <h3>Small GEMM</h3>
+            <h3>Small GEMM in Arm platform</h3>
             <p class="text-muted">November 2020 - May 2021</p>
 
             <p>GEMM with the small size of input matrices is becoming widely used in many fields like HPC and machine learning. Although many famous BLAS libraries already supported small GEMM, they cannot achieve near-optimal performance. This is because the costs of pack operations are high and frequent boundary processing cannot be neglected. This paper proposes an input-aware adaptive tuning framework(IAAT) for small GEMM to overcome the performance bottlenecks in state-of-the-art implementations. IAAT consists of two stages, the install-time stage and the run-time stage. In the run-time stage, IAAT tiles matrices into blocks to alleviate boundary processing. This stage utilizes an input-aware adaptive tile algorithm and plays the role of runtime tuning. In the install-time stage, IAAT auto-generates hundreds of kernels of different sizes to remove pack operations. Finally, IAAT finishes the computation of small GEMM by invoking different kernels, which corresponds to the size of blocks. The experimental results show that IAAT gains better performance than other BLAS libraries on ARMv8 platform.</p>
@@ -56,7 +56,7 @@
             <h3>Small GEMM for cross platform</h3>
             <p class="text-muted">June 2021 - now</p>
 
-            <p>GEMM with the small size of input matrices is becoming widely used in many fields like HPC and machine learning. Although many famous BLAS libraries already supported small GEMM, they cannot achieve near-optimal performance. This is because the costs of pack operations are high and frequent boundary processing cannot be neglected. This paper proposes an input-aware adaptive tuning framework(IAAT) for small GEMM to overcome the performance bottlenecks in state-of-the-art implementations. IAAT consists of two stages, the install-time stage and the run-time stage. In the run-time stage, IAAT tiles matrices into blocks to alleviate boundary processing. This stage utilizes an input-aware adaptive tile algorithm and plays the role of runtime tuning. In the install-time stage, IAAT auto-generates hundreds of kernels of different sizes to remove pack operations. Finally, IAAT finishes the computation of small GEMM by invoking different kernels, which corresponds to the size of blocks. The experimental results show that IAAT gains better performance than other BLAS libraries on ARMv8 platform.</p>
+            <p>IAAT for different platforms</p>
 
             <div>
                 <span class="badge badge-primary">C</span>
