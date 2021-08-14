@@ -28,17 +28,9 @@
         </div>
     </div>
 
-    <h3 class="screen">Skills</h3>
-    <div class="row mb-4">
-        {{#each skills}}
-        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-            <small>{{ this.[0] }}</small>
-        </div>
-        <div class="col-print-1 col-3 col-md-2 col-lg-1">
-            {{ this.[1] }}
-        </div>
-        {{/each}}
-    </div>
+    <h2>Education</h2>
+    <p>Bachelors degree in Software Engineering. Shandong University [2015 - 2019]</p>
+    <p>Masters degree. Institute of Computing Technology, Chinese Academy of Sciences [2019 - now]</p>
 
     <p>
         English poet, playwright and actor, widely regarded as the greatest writer in the English language
@@ -65,9 +57,18 @@
     </div>
     {{/each}}
 
-    <h2>Education</h2>
-    <p>Bachelors degree in Software Engineering. Shandong University [2015 - 2019]</p>
-    <p>Masters degree. Institute of Computing Technology, Chinese Academy of Sciences [2019 - now]</p>
+
+    <h3 class="screen">Skills</h3>
+    <div class="row mb-4">
+        {{#each skills}}
+        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+            <small>{{ this.[0] }}</small>
+        </div>
+        <div class="col-print-1 col-3 col-md-2 col-lg-1">
+            {{ this.[1] }}
+        </div>
+        {{/each}}
+    </div>
 
 </div>
 </body>
