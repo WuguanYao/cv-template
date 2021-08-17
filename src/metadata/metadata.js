@@ -2,7 +2,7 @@ module.exports = {
   name: 'Yao Jianyu',
   facts: {
     'Residence': 'Beijing, China',
-    'Email': '<a href="mailto:yaojianyu19f@ict.ac.cn">yaojianyu19f@ict.ac.cn</a>;<a href="mailto:yaojianyu19f@ict.ac.cn">yaojianyu19f@ict.ac.cn</a>'
+    'Email': '<a href="mailto:yaojianyu19f@ict.ac.cn">yaojianyu19f@ict.ac.cn</a>;<a href="mailto:yaojianyu89@gmail.com">yaojianyu89@gmail.com</a>'
   },
   plays: [
     {
