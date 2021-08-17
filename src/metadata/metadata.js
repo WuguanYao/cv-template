@@ -28,7 +28,7 @@ module.exports = {
     },
     {
       title: 'High-performance implementation and optimization of trigonometric functions based on SIMD',
-      written: 'August 2020 - April 2021. The paper is published in ¼ÆËã»ú¿ÆÑ§(Computer Science)',
+      written: 'August 2020 - April 2021. The paper is published in è®¡ç®—æœºç§‘å­¦(Computer Science)',
       contents: `As basic mathematical operations, the high-performance implementation of trigonometric functions is significant to the basic software ecology of the processor. 
       The current processors have adopted the SIMD architecture. 
       Therefore, the high-performance implementation of trigonometric functions based on SIMD has important research significance and application value.
