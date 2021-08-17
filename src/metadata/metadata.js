@@ -2,12 +2,12 @@ module.exports = {
   name: 'Yao Jianyu',
   facts: {
     'Residence': 'Beijing, China',
-    'Email': '<a href="mailto:yaojianyu89@gmail.com">yaojianyu89@gmail.com</a>'
+    'Email': '<a href="mailto:yaojianyu19f@ict.ac.cn">yaojianyu19f@ict.ac.cn</a>'
   },
   plays: [
     {
       title: 'IAAT: A Input-Aware Adaptive Tuning framework for Small GEMM',
-      written: 'November 2020 - May 2021.   The paper is under review in ICPADS\'21',
+      written: 'November 2020 - May 2021. The paper is under review in ICPADS\'21',
       contents: `GEMM with the small size of input matrices is becoming widely used in many fields like HPC and machine learning. 
       Although many famous BLAS libraries already supported small GEMM, they cannot achieve near-optimal performance. 
       This is because the costs of pack operations are high and frequent boundary processing cannot be neglected. 
@@ -24,13 +24,19 @@ module.exports = {
       written: 'June 2021 - now',
       contents: `Our previous work only focused on ARMv8 platform, and was not suitable for other platforms. 
       Therefore, we reaserch the common method and implementation of small GEMM for different platforms.
-       Besides, we plan to utilize JIT(just-in-time) to optimize small GEMM`
+       Besides, we plan to utilize JIT(just-in-time) to optimize small GEMM.`
     },
     {
-      title: 'OpenVML: Vector Math Library',
-      written: 'August 2020 - April 2021',
-      contents: `As a basic mathematical operation, the high-performance implementation of trigonometric functions is of great significance to the construction of the basic software ecology of the processor. 
-      Especially, the current processors have adopted the SIMD architecture, and the implementation of high-performance trigonometric functions based on SIMD has important research significance and application value. In this regard, the project uses numerical analysis method to implement and optimize the five commonly used trigonometric functions sin, cos, tan, atan, atan2 with high performance. Based on the analysis of floating-point IEEE754 standard, an efficient trigonometric function algorithm is designed. Then, the algorithm accuracy is further improved by the application of Taylor formula, Pade approximation and Remez algorithm in polynomial approximation algorithm. Finally, the performance of the algorithm is further improved by using instruction pipeline and SIMD optimization. The experimental results show that, on the premise of satisfying the accuracy, the trigonometric function implemented is compared with libm algorithm library and ARM_M algorithm library, on the ARM V8 computing platform, has achieved great performance improvement, which is 1.77-6.26 times higher than libm algorithm library, compared with ARM_M The library of M method is 1.34-1.5 times higher`
+      title: 'High-performance implementation and optimization of trigonometric functions based on SIMD',
+      written: 'August 2020 - April 2021. The paper is published in 计算机科学(Computer Science)',
+      contents: `As basic mathematical operations, the high-performance implementation of trigonometric functions is significant to the basic software ecology of the processor. 
+      The current processors have adopted the SIMD architecture. 
+      Therefore, the high-performance implementation of trigonometric functions based on SIMD has important research significance and application value.
+      We use numerical analysis method to implement and optimize five commonly used trigonometric functions sin, cos, tan, atan, atan2. 
+      We design efficient trigonometric function algorithms according to the analysis of floating-point IEEE754 standard. 
+      Then, we imporve algorithm's accuracy by the application of polynomial approximation algorithm. eg. Taylor formula, Pade approximation and Remez algorithm. 
+      Finally, we promote the algorithm performance by using features of hardware. 
+      The experiment shows that we gain 1.77-6.26 times faster than libm library, and 1.34-1.5 times faster than ARM_M library on the ARMv8 platform.`
     },
   ],
   skills: [
